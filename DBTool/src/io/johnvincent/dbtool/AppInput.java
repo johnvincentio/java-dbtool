@@ -31,8 +31,8 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 
-import com.idc.sql.lib.DB;
-import com.idc.sql.lib.Scenario;
+import io.johnvincent.sql.lib.DB;
+import io.johnvincent.sql.lib.Scenario;
 
 import io.johnvincent.swing.JVMessagesArea;
 import io.johnvincent.swing.JVProgressBar;

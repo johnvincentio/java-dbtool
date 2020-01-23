@@ -7,16 +7,16 @@ import java.util.Iterator;
 
 import org.apache.commons.lang.time.StopWatch;
 
-import com.idc.sql.lib.DB;
-import com.idc.sql.lib.DBDescribe;
-import com.idc.sql.lib.DBLoadFile;
-import com.idc.sql.lib.DBMakeSQL;
-import com.idc.sql.lib.DBQuery;
-import com.idc.sql.lib.DBUpdate;
-import com.idc.sql.lib.OutputFile;
-import com.idc.sql.lib.OutputTTY;
-import com.idc.sql.lib.StatementInfo;
-import com.idc.sql.lib.StatementItemInfo;
+import io.johnvincent.sql.lib.DB;
+import io.johnvincent.sql.lib.DBDescribe;
+import io.johnvincent.sql.lib.DBLoadFile;
+import io.johnvincent.sql.lib.DBMakeSQL;
+import io.johnvincent.sql.lib.DBQuery;
+import io.johnvincent.sql.lib.DBUpdate;
+import io.johnvincent.sql.lib.OutputFile;
+import io.johnvincent.sql.lib.OutputTTY;
+import io.johnvincent.sql.lib.StatementInfo;
+import io.johnvincent.sql.lib.StatementItemInfo;
 
 import io.johnvincent.trace.LogHelper;
 
