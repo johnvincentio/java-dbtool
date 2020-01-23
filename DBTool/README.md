@@ -1,6 +1,8 @@
 
 # Usage
 
+Ensure `/tmp/dbtool` directory exists.
+
 Start the application `dbtool.command <path-to-dbtool.xml`
 
 Create your own `dbtool.xml` file. For example:

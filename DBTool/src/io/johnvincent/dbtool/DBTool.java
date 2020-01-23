@@ -21,7 +21,7 @@ import io.johnvincent.sql.lib.StatementItemInfo;
 import io.johnvincent.trace.LogHelper;
 
 public class DBTool {
-	public static final File REPORTSDIR = new File ("c:/jvWork/dbtool");
+	public static final File REPORTSDIR = new File ("/tmp/dbtool");
 
 	private DBToolGui m_app;
 	public DBTool (DBToolGui app) {m_app = app;}
