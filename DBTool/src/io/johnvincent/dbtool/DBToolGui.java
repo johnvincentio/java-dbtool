@@ -20,7 +20,7 @@ import io.johnvincent.trace.LogHelper;
 public class DBToolGui extends JFrame {
 	private static final long serialVersionUID = 1;
 
-	private String m_strPropertiesFile = "dbtoolgui.xml";
+	private String m_strPropertiesFile = "dbtool.xml";
 
 	private JTabbedPane m_tabbedPane;
 	private AppInput m_appInput;

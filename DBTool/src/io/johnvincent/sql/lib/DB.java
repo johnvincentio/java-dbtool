@@ -1,4 +1,4 @@
-package com.idc.sql.lib;
+package io.johnvincent.sql.lib;
 
 import java.io.File;
 import java.math.BigDecimal;
@@ -15,8 +15,8 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import com.idc.trace.LogHelper;
-import com.idc.utils.UtilHelper;
+import io.johnvincent.trace.LogHelper;
+import io.johnvincent.utils.UtilHelper;
 
 public class DB {
 	private Scenarios m_scenarios;

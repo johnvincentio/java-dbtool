@@ -1,10 +1,10 @@
-package com.idc.sql.app;
+package io.johnvincent.sql.app;
 
 import org.apache.commons.lang.time.StopWatch;
 
-import com.idc.sql.lib.DB;
-import com.idc.sql.lib.DBQuery;
-import com.idc.trace.LogHelper;
+import io.johnvincent.sql.lib.DB;
+import io.johnvincent.sql.lib.DBQuery;
+import io.johnvincent.trace.LogHelper;
 
 public class IdevDBTest {
 	private DB m_db;

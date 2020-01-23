@@ -1,11 +1,11 @@
-package com.idc.sql.lib;
+package io.johnvincent.sql.lib;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import com.idc.file.JVFile;
+import io.johnvincent.file.JVFile;
 
 public class DBLoadFile {
 	OutputFile m_outputFile;

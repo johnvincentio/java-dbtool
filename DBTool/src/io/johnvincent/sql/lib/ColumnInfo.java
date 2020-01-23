@@ -1,4 +1,5 @@
-package com.idc.sql.lib;
+
+package io.johnvincent.sql.lib;
 
 /**
 * @author John Vincent
@@ -6,7 +7,7 @@ package com.idc.sql.lib;
 
 import java.io.Serializable;
 
-import com.idc.trace.LogHelper;
+import io.johnvincent.trace.LogHelper;
 
 public class ColumnInfo implements Serializable {
 	private static final long serialVersionUID = 1L;

@@ -1,4 +1,4 @@
-package com.idc.sql.app;
+package io.johnvincent.sql.app;
 
 import java.sql.Connection;
 import java.sql.Driver;
@@ -19,8 +19,8 @@ public class AppMySQL {
 		String host = "localhost";
 		String port = "3306";
 		String schema = "jv_schema_1";
-		String username = "jv";
-		String password = "yeti";
+		String username = "yyyyyyyy";
+		String password = "xxxxxxxxx";
 		String connectionUrl = url + "//" + host + ":" + port + "/" + schema;
 		System.out.println("connectionUrl "+connectionUrl);
 		Connection m_connection = null;

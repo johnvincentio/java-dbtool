@@ -1,9 +1,9 @@
-package com.idc.sql.lib;
+package io.johnvincent.sql.lib;
 
 import java.io.Serializable;
 import java.sql.Types;
 
-import com.idc.utils.UtilHelper;
+import io.johnvincent.utils.UtilHelper;
 
 /**
 * @author John Vincent

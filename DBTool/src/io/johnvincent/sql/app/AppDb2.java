@@ -1,4 +1,4 @@
-package com.idc.sql.app;
+package io.johnvincent.sql.app;
 
 import java.sql.Connection;
 import java.sql.Driver;
@@ -14,9 +14,9 @@ public class AppDb2 {
 		String dbdriver = "COM.ibm.db2.jdbc.app.DB2Driver";
 //		String dbdriver = "COM.ibm.db2.jcc.DB2Driver";
 		String url = "jdbc:db2:";
-		String database = "ECOMDEV";
-		String username = "prc4031";
-		String password = "love257$";
+		String database = "ddddddd";
+		String username = "yyyyyyy";
+		String password = "xxxxxxxxx";
 		String schema = "HERCDB";
 		System.out.println("dbdriver "+dbdriver);
 		System.out.println("url "+url);

@@ -1,9 +1,9 @@
-package com.idc.sql.lib;
+package io.johnvincent.sql.lib;
 
 import java.sql.Types;
 import java.util.Iterator;
 
-import com.idc.trace.LogHelper;
+import io.johnvincent.trace.LogHelper;
 
 public class MakeSQL {
 	private static final String TAB = "\t";

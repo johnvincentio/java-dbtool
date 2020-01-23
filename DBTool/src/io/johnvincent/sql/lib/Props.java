@@ -1,4 +1,4 @@
-package com.idc.sql.lib;
+package io.johnvincent.sql.lib;
 
 /**
 * @author John Vincent
@@ -10,7 +10,7 @@ import java.util.Properties;
 
 import java.io.Serializable;
 
-import com.idc.trace.LogHelper;
+import io.johnvincent.trace.LogHelper;
 
 public class Props implements Serializable {
 	private static final long serialVersionUID = 1L;

@@ -1,17 +1,17 @@
-package com.idc.sql.app;
+package io.johnvincent.sql.app;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import com.idc.sql.lib.DB;
-import com.idc.sql.lib.IncludeTableInfo;
-import com.idc.sql.lib.IncludeTableItemInfo;
-import com.idc.sql.lib.MakeSQLforMySQL;
-import com.idc.sql.lib.Output;
-import com.idc.sql.lib.OutputFile;
-import com.idc.sql.lib.TableInfo;
-import com.idc.trace.LogHelper;
+import io.johnvincent.sql.lib.DB;
+import io.johnvincent.sql.lib.IncludeTableInfo;
+import io.johnvincent.sql.lib.IncludeTableItemInfo;
+import io.johnvincent.sql.lib.MakeSQLforMySQL;
+import io.johnvincent.sql.lib.Output;
+import io.johnvincent.sql.lib.OutputFile;
+import io.johnvincent.sql.lib.TableInfo;
+import io.johnvincent.trace.LogHelper;
 
 public class MakeAllSQL_DB2_to_MySQL {
 	private static final String CONFIG_FILE = "C:/jvDevelopment/repo_four/windows/dbtoolgui.xml";

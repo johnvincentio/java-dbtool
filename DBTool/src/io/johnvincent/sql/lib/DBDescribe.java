@@ -1,4 +1,4 @@
-package com.idc.sql.lib;
+package io.johnvincent.sql.lib;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -6,8 +6,8 @@ import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.util.Iterator;
 
-import com.idc.trace.LogHelper;
-import com.idc.utils.UtilHelper;
+import io.johnvincent.trace.LogHelper;
+import io.johnvincent.utils.UtilHelper;
 
 public class DBDescribe {
 	private DB m_db;

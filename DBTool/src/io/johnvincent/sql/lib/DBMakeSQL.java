@@ -1,10 +1,10 @@
 
-package com.idc.sql.lib;
+package io.johnvincent.sql.lib;
 
 import java.util.ArrayList;
 import java.util.regex.Pattern;
 
-import com.idc.trace.LogHelper;
+import io.johnvincent.trace.LogHelper;
 
 public class DBMakeSQL {
 	private Output m_output;

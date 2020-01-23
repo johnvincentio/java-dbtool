@@ -1,21 +1,10 @@
-/********************************************************************
-*			Copyright (c) 2006 The Hertz Corporation				*
-*			  All Rights Reserved.  (Unpublished.)					*
-*																	*
-*		The information contained herein is confidential and		*
-*		proprietary to The Hertz Corporation and may not be			*
-*		duplicated, disclosed to third parties, or used for any		*
-*		purpose not expressly authorized by it.  Any unauthorized	*
-*		use, duplication, or disclosure is prohibited by law.		*
-*																	*
-*********************************************************************/
 
-package com.idc.sql.app;
+package io.johnvincent.sql.app;
 
 import org.apache.commons.lang.time.StopWatch;
 
-import com.idc.sql.lib.DB;
-import com.idc.sql.lib.DBQuery;
+import io.johnvincent.sql.lib.DB;
+import io.johnvincent.sql.lib.DBQuery;
 
 /**
  * Test AS400CA Box

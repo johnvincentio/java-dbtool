@@ -1,10 +1,10 @@
-package com.idc.sql.lib;
+package io.johnvincent.sql.lib;
 
 import java.sql.Types;
 import java.util.Iterator;
 
-import com.idc.trace.LogHelper;
-import com.idc.utils.JVString;
+import io.johnvincent.trace.LogHelper;
+import io.johnvincent.utils.JVString;
 
 public class MakeSQLforMySQL {
 	private static final String TAB = "\t";

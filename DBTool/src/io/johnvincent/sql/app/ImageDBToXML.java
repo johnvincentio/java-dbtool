@@ -1,15 +1,15 @@
-package com.idc.sql.app;
+package io.johnvincent.sql.app;
 
 import java.io.File;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import com.idc.sql.lib.DB;
-import com.idc.sql.lib.DBQuery;
-import com.idc.sql.lib.QueryRowInfo;
-import com.idc.sql.lib.QueryRowItemInfo;
-import com.idc.utils.UtilHelper;
+import io.johnvincent.sql.lib.DB;
+import io.johnvincent.sql.lib.DBQuery;
+import io.johnvincent.sql.lib.QueryRowInfo;
+import io.johnvincent.sql.lib.QueryRowItemInfo;
+import io.johnvincent.utils.UtilHelper;
 
 public class ImageDBToXML {
 

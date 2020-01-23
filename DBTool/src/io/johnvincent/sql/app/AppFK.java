@@ -1,4 +1,4 @@
-package com.idc.sql.app;
+package io.johnvincent.sql.app;
 
 import java.sql.DatabaseMetaData;
 import java.sql.ResultSet;
@@ -6,10 +6,10 @@ import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import com.idc.sql.lib.DB;
-import com.idc.sql.lib.IncludeTableInfo;
-import com.idc.sql.lib.Scenarios;
-import com.idc.trace.LogHelper;
+import io.johnvincent.sql.lib.DB;
+import io.johnvincent.sql.lib.IncludeTableInfo;
+import io.johnvincent.sql.lib.Scenarios;
+import io.johnvincent.trace.LogHelper;
 
 public class AppFK {
 
@@ -164,23 +164,6 @@ public class AppFK {
 14, DEFERRABILITY, 5, 6
 */
 
-/*
-exportedKeys
-count 1 schema DB2INST1 table EMAIL_QUEUE
-count 3 schema DB2INST1 table IWOD_DEPLOYMENTS
-count 3 schema DB2INST1 table IWOD_LEGS
-count 2 schema DB2INST1 table IWOD_RCVR_DEPLOYMENTS
-count 1 schema DB2INST1 table IWOD_REPORTS
-count 2 schema DB2INST1 table LOCAMENITIES
-count 2 schema DB2INST1 table LOCCITIES
-count 4 schema DB2INST1 table LOCCOUNTRIES
-count 2 schema DB2INST1 table LOCGENRES
-count 7 schema DB2INST1 table LOCLOCATIONS
-count 2 schema DB2INST1 table LOCRESCENTERS
-count 1 schema DB2INST1 table LOCRESTRICTIONS
-count 2 schema DB2INST1 table LOCSTATES
-count 1 schema DB2INST1 table VIRTUAL_URL
-*/
 
 /*
 package my_package;

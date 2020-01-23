@@ -1,18 +1,18 @@
-package com.idc.sql.app;
+package io.johnvincent.sql.app;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import com.idc.file.JVFile;
-import com.idc.sql.lib.DB;
-import com.idc.sql.lib.IncludeTableInfo;
-import com.idc.sql.lib.IncludeTableItemInfo;
-import com.idc.sql.lib.MakeSQL;
-import com.idc.sql.lib.Output;
-import com.idc.sql.lib.OutputFile;
-import com.idc.sql.lib.TableInfo;
-import com.idc.trace.LogHelper;
+import io.johnvincent.file.JVFile;
+import io.johnvincent.sql.lib.DB;
+import io.johnvincent.sql.lib.IncludeTableInfo;
+import io.johnvincent.sql.lib.IncludeTableItemInfo;
+import io.johnvincent.sql.lib.MakeSQL;
+import io.johnvincent.sql.lib.Output;
+import io.johnvincent.sql.lib.OutputFile;
+import io.johnvincent.sql.lib.TableInfo;
+import io.johnvincent.trace.LogHelper;
 
 public class App {
 

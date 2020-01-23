@@ -1,4 +1,4 @@
-package com.idc.sql.lib;
+package io.johnvincent.sql.lib;
 
 public interface Output {
 	public boolean open (); 

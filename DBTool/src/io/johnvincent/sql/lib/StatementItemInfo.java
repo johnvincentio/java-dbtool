@@ -1,8 +1,8 @@
-package com.idc.sql.lib;
+package io.johnvincent.sql.lib;
 
 import java.io.Serializable;
 
-import com.idc.dbtool.DBTool;
+import io.johnvincent.dbtool.DBTool;
 
 public class StatementItemInfo implements Serializable {
 	private static final long serialVersionUID = 1L;

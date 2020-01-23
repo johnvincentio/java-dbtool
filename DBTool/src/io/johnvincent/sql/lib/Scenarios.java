@@ -1,4 +1,4 @@
-package com.idc.sql.lib;
+package io.johnvincent.sql.lib;
 
 import java.util.ArrayList;
 import java.util.Iterator;

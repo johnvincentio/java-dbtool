@@ -1,4 +1,4 @@
-package com.idc.sql.lib;
+package io.johnvincent.sql.lib;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;

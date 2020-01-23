@@ -1,6 +1,6 @@
-package com.idc.sql.lib;
+package io.johnvincent.sql.lib;
 
-import com.idc.swing.JVMessagesArea;
+import io.johnvincent.swing.JVMessagesArea;
 
 public class OutputTTY implements Output {
 	private JVMessagesArea jvMessagesArea;

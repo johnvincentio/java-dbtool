@@ -1,28 +1,17 @@
-/********************************************************************
-*			Copyright (c) 2006 The Hertz Corporation				*
-*			  All Rights Reserved.  (Unpublished.)					*
-*																	*
-*		The information contained herein is confidential and		*
-*		proprietary to The Hertz Corporation and may not be			*
-*		duplicated, disclosed to third parties, or used for any		*
-*		purpose not expressly authorized by it.  Any unauthorized	*
-*		use, duplication, or disclosure is prohibited by law.		*
-*																	*
-*********************************************************************/
 
-package com.idc.sql.app;
+package io.johnvincent.sql.app;
 
 import java.io.File;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import com.idc.sql.lib.DB;
-import com.idc.sql.lib.DBQuery;
-import com.idc.sql.lib.QueryRowInfo;
-import com.idc.sql.lib.QueryRowItemInfo;
-import com.idc.utils.JVString;
-import com.idc.utils.UtilHelper;
+import io.johnvincent.sql.lib.DB;
+import io.johnvincent.sql.lib.DBQuery;
+import io.johnvincent.sql.lib.QueryRowInfo;
+import io.johnvincent.sql.lib.QueryRowItemInfo;
+import io.johnvincent.utils.JVString;
+import io.johnvincent.utils.UtilHelper;
 
 /**
 * @author John Vincent

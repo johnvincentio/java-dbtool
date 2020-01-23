@@ -1,8 +1,8 @@
-package com.idc.sql.lib;
+package io.johnvincent.sql.lib;
 
 import java.io.*;
 
-import com.idc.trace.LogHelper;
+import io.johnvincent.trace.LogHelper;
 
 public class OutputFile implements Output {
 	private File file;

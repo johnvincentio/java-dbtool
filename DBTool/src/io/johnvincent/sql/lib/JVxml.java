@@ -1,5 +1,5 @@
 
-package com.idc.sql.lib;
+package io.johnvincent.sql.lib;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -14,7 +14,7 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 
-import com.idc.trace.LogHelper;
+import io.johnvincent.trace.LogHelper;
 
 public class JVxml {
 	public Scenarios parse (File file) {

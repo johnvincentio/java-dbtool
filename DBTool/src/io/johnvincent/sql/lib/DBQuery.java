@@ -1,5 +1,5 @@
 
-package com.idc.sql.lib;
+package io.johnvincent.sql.lib;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -8,8 +8,8 @@ import java.sql.SQLException;
 import java.sql.Types;
 import java.util.Iterator;
 
-import com.idc.trace.LogHelper;
-import com.idc.utils.UtilHelper;
+import io.johnvincent.trace.LogHelper;
+import io.johnvincent.utils.UtilHelper;
 
 public class DBQuery {
 	private boolean m_bDebug = false;
