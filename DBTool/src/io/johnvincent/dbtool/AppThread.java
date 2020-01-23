@@ -1,7 +1,7 @@
 
 package io.johnvincent.dbtool;
 
-import com.idc.trace.LogHelper;
+import io.johnvincent.trace.LogHelper;
 
 public class AppThread extends Thread {
 	private DBToolGui m_app;

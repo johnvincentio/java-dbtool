@@ -13,7 +13,7 @@ import javax.swing.JButton;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 
-import com.idc.swing.JVMessagesArea;
+import io.johnvincent.swing.JVMessagesArea;
 
 /**
  * @author John Vincent

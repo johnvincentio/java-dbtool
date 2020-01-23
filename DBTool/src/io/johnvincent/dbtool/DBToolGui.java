@@ -10,8 +10,12 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTabbedPane;
 
-import com.idc.env.Utils;
-import com.idc.trace.LogHelper;
+import java.io.File;
+
+import org.apache.log4j.xml.DOMConfigurator;
+
+import io.johnvincent.env.Utils;
+import io.johnvincent.trace.LogHelper;
 
 public class DBToolGui extends JFrame {
 	private static final long serialVersionUID = 1;
@@ -26,6 +30,19 @@ public class DBToolGui extends JFrame {
 	public AppOutput getAppOutput() {return m_appOutput;}
 	public AppThread getAppThread() {return m_appThread;}
 
+	static {
+		init();
+	}
+	
+	/**
+	 * method to init log4j configurations
+	 */
+	private static void init() {
+		String log4jConfPath = System.getProperty("user.dir")+File.separator+"log4j.xml";
+		System.out.println("log4jConfPath "+log4jConfPath);
+		DOMConfigurator.configure(log4jConfPath);
+	}
+	
 	public DBToolGui (String msg, String[] args) {
 		super(msg);
 		LogHelper.info(">>> DBToolGui");

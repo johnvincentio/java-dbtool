@@ -8,7 +8,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.SwingUtilities;
 
-import io.johnvincent.diff.exec.OutputLine;
+import io.johnvincent.exec.OutputLine;
 
 public class JVMessagesArea extends JPanel implements OutputLine {
 	private static final long serialVersionUID = 1;

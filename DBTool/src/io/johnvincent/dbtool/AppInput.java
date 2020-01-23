@@ -33,10 +33,11 @@ import javax.swing.SwingUtilities;
 
 import com.idc.sql.lib.DB;
 import com.idc.sql.lib.Scenario;
-import com.idc.swing.JVMessagesArea;
-import com.idc.swing.progress.JVProgressBar;
-import com.idc.trace.LogHelper;
-import com.idc.utils.JVString;
+
+import io.johnvincent.swing.JVMessagesArea;
+import io.johnvincent.swing.JVProgressBar;
+import io.johnvincent.trace.LogHelper;
+import io.johnvincent.utils.JVString;
 
 public class AppInput extends JPanel implements ActionListener, DropTargetListener {
 	private static final long serialVersionUID = 1;

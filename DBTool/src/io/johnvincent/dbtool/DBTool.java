@@ -17,7 +17,8 @@ import com.idc.sql.lib.OutputFile;
 import com.idc.sql.lib.OutputTTY;
 import com.idc.sql.lib.StatementInfo;
 import com.idc.sql.lib.StatementItemInfo;
-import com.idc.trace.LogHelper;
+
+import io.johnvincent.trace.LogHelper;
 
 public class DBTool {
 	public static final File REPORTSDIR = new File ("c:/jvWork/dbtool");
