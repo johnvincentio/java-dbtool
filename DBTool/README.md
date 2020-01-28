@@ -1,7 +1,7 @@
 
 # Usage
 
-Ensure `/tmp/dbtool` directory exists.
+Log files are in directory `/tmp/dbtool`. Ensure `/tmp/dbtool` directory exists.
 
 Start the application `dbtool.command <path-to-dbtool.xml`
 
@@ -34,8 +34,6 @@ Create your own `dbtool.xml` file. For example:
 
 </dbtool>
 ```
-
-
 
 
 # DBTool
@@ -98,14 +96,40 @@ Copy code to this package and change package names.
 
 `/Users/jv/Desktop/MyDevelopment/github/java/Utilities/java-dbtool/DBTool/dbtool.command`
 
+## Create Symbolic Link
 
-## Create Alias
+```
+ln -s /Users/jv/Desktop/MyDevelopment/github/java/Utilities/java-dbtool/DBTool/dbtool.command /Users/jv/Desktop/MyDevelopment/github/repo_shell_scripts/mac/unix-scripts/bin/java-dbtool
+```
 
-In Finder
+## Save java-dbtool as a Mac App
 
-* select `dbtool.command`
-* right click, Make Alias
-* move alias to `/Users/jv/Desktop/MyDevelopment/github/repo_shell_scripts/mac/JVTools/`
-* rename to `dbtool.command`
+Execute from Finder
 
-# END
+* Go, Applications
+* Execute: Automator (or Automator.app)
+
+Select
+
+* Quick Action, or
+* Application
+
+and then select `Choose`
+
+From the middle pane, double click Run Shell Script
+
+Shell: /bin/bash
+Pass input: as arguments
+
+```
+/Users/jv/Desktop/MyDevelopment/github/repo_shell_scripts/mac/unix-scripts/bin/java-dbtool
+```
+
+To save: 
+
+* File, Save:
+* Save as: java-dbtool
+* Where: Applications
+
+saves java-dbtool.app in Applications.
+
