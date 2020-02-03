@@ -63,7 +63,7 @@ public class DBToolGui extends JFrame {
 	}
 
 	public static void main(String[] args) {
-		new DBToolGui("DBToolGUI", args);
+		new DBToolGui("Database Tool", args);
 	}
 	public void setSize (int width, int height) {
 		super.setSize (width, height);

@@ -15,4 +15,4 @@ MYCP=$MYCP:$DEV_HOME/Jars/mysql-connector-java-5.1.31-bin.jar
 
 MY_FILE=/Users/jv/Desktop/MyDevelopment/github/repo_shell_scripts/mac/unix-scripts/dbtool/dbtool.xml
 #
-java -cp $MYCP io.johnvincent.dbtool.DBToolGui $MY_FILE
+java -cp $MYCP -Xdock:name="Database Tool" io.johnvincent.dbtool.DBToolGui $MY_FILE
